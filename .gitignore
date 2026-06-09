@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+forecasting/
+venv/
+.env/
+
+# Django stuff
+db.sqlite3
+*.log
+local_settings.py
+
+# Migrations (optional - ONLY if you want clean rebuilds)
+# forecasting_app/migrations/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Static/Dashboard build files (optional)
+dashboard/static/dist/
+dashboard/static/build/
+dashboard/node_modules/
+
+# Frontend dashboard builds (if you later use React/Vue)
+frontend/dist/
+frontend/build/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Environment variables
+.env
+.env.local
+
+# Python testing cache
+.pytest_cache/
+.coverage
+
+# Logs
+logs/
+*.log
